@@ -1,0 +1,51 @@
+Programming Challenge 1 - Stadium Seating 
+
+There are three seating categories at a stadium 
+For a softball game, Class A seats $15, Class B seats cost $12, and Class C seats cost $9. Write a program that asks how many tickets for each class of seats were sold, then displays the amount of income generated from ticket sales. 
+
+```
+classA = 15
+
+classB = 12
+
+classC = 9
+
+seatsClassA = classA*20
+
+seatsClassB = classB*150
+
+seatsClassC = classC*500
+
+netSales = seatsClassA + seatsClassB + seatsClassC
+
+print (netSales)
+
+
+
+Code: 
+
+```
+classA = int (input("Enter the no. of Class A tickets"))
+
+classB = int (input("Enter the no. of Class B tickets"))
+
+classC = int (input("Enter the no. of Class C tickets"))
+
+seatsClassA = classA*15
+
+seatsClassB = classB*12
+
+seatsClassC = classC*9
+
+netSalesA = seatsClassA
+
+netSalesB = seatsClassB
+
+netSalesC = seatsClassC 
+
+print (seatsClassA) 
+
+print (seatsClassB)
+
+print (seatsClassC) 
+```
