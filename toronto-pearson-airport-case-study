@@ -1,0 +1,25 @@
+Case Study
+Toronto Pearson Airport has contracted your company to develop a luggage pricing system. Travellers will place their luggage on a scale and will be charged a fee depending on the weight of their luggage. The pricing sheet for luggage is as follows:
+
+
+Develop a program that outputs a price based on an inputted weight (remember, prices and weights can be represented as numerics - floats and integers).
+
+My code: 
+
+```
+weight = int(input("Enter in the weight of your luggage"))
+
+if weight < 15:
+    print("Your price is $14.99")
+elif weight >= 15 and weight <= 20:
+    print("Your price is $24.99")
+elif weight > 21 and weight <= 30:
+    print("Your price is $26.99")
+elif weight > 31 and weight <= 40:
+    print("Your price is $29.99")
+elif weight > 41 and weight <= 50:
+    print("Your price is $34.99")
+else:
+    print ("I'm sorry! We don't accept that weight.")
+
+```
