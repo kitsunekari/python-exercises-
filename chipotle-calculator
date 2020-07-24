@@ -1,15 +1,5 @@
-Case Study
-Let’s replicate the Chipotle Nutrition Calculator. To get a feel for how the calculator works, go to the following url: 
-chipotle.ca/nutrition-calculator.html. 
-Next, write a series of conditional statements that calculates the total calories in a meal (only account for three types 
-of toppings in each toppings category). 
-Hint: Before writing the conditional statements, create a variable for each topping that holds the calorie count for that 
-specific topping.
 
 
-My code: 
-
-```
 flour = 320
 rice = 170
 chicken = 210
